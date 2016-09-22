@@ -53,7 +53,7 @@ class ViewController: UIViewController {
             
             if password % 3 == 0 {
                 print("Welcome \(username)")
-                return "Welcome"
+                return "Welcome!"
             }
             else {
                 print("Access denied b/c password \(username)")
